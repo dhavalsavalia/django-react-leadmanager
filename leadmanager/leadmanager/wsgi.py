@@ -1,5 +1,5 @@
 """
-WSGI config for leadmanger project.
+WSGI config for leadmanager project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'leadmanger.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "leadmanager.settings")
 
 application = get_wsgi_application()
